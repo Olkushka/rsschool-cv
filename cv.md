@@ -27,22 +27,23 @@
    1. [beauty saloon](https://salonmonro7.by/)  
    2. [air conditioners in Pinsk](https://reft.by/)  
 
-***Sample site for online courses***
+***Sample site for online courses***  
+
         <! DOCTYPE html >
-< html  lang = " ru " >
-  < голова >
+    < html  lang = " ru " >
+    < голова >
     < meta  charset = " UTF-8 " >
     < link  rel = " stylesheet " href = " style.css " >
     < title > Крутой пацан Илья </ title >
     < link  href = " https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic " rel = " stylesheet " >
-  </ голова >
+    </ голова >
 
-  < тело >
+    < тело >
     < header  class = " page-header " >
        < div  class = " container " >
       Всегда на связи
-   < Класс = " заголовок-почта " HREF =" электронная почта: ilya.potup2205@gmail.com " > ilya.potup2205@gmail.com </ > 
-   < Класс = " заголовок-телефон " HREF =" тел: +375447726682 " > +375 44 772 66 82 </ > 
+    < Класс = " заголовок-почта " HREF =" электронная почта: ilya.potup2205@gmail.com " > ilya.potup2205@gmail.com </ > 
+    < Класс = " заголовок-телефон " HREF =" тел: +375447726682 " > +375 44 772 66 82 </ > 
     </ div >
     </ заголовок >
 
@@ -57,8 +58,8 @@
        < div  class = " container " >
       < h2  class = " subheading " > Давай знакомится </ h2 >
       < figure  class = " user-image " >
-  < img  src = " files / logo.jpg " width = " 928 " height = " 536 " alt = " Игроманище " >
-</ рисунок >
+    < img  src = " files / logo.jpg " width = " 928 " height = " 536 " alt = " Игроманище " >
+    </ рисунок >
       < h3 > В реальной жизни меня зовут Илья </ h3 >
       < p > В свободное время от уроков играю в Brawl, а если не играю - тогда изучаю </ p >
       < h3 > Что я могу </ h3 >
@@ -77,8 +78,8 @@
 
       < h3 > Канал на YouTub </ h3 >
       < figure  class = " project-image " >
-  < img  src = " files / blog.jpg " width = " 928 " height = " 536 " alt = " Начинающий блогер " >
-</ рисунок >
+    < img  src = " files / blog.jpg " width = " 928 " height = " 536 " alt = " Начинающий блогер " >
+    </ рисунок >
       < p > Канал моих боёв </ p >
       < Класс = " Кнопка " HREF =" https://www.youtube.com/channel/UC0F8u5eV-TxAdkZbsgtybYQ " > Перейти на канал </ > 
     </ div >
@@ -91,7 +92,9 @@
       < Класс = " сноска-телефон " HREF =" тел: +375447726682 " > +375 44 772 66 82 </ > 
     </ div >
     </ нижний колонтитул >
-  </ body >
-</ html >        
+    </ body >
+    </ html >        
+
+##Level English## **A1 Elementary** *but now I I attend courses to raise my level*      
 
 
