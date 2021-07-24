@@ -17,14 +17,14 @@
   * 2021 SEO-courses
   * 2021 English-courses  
 
-  ## Work Experience ##
+## Work Experience ##
     1. 2014 -2019 *LLC MeblikBel*  
     > from the manager deputy director  
     2. 2019 2021 *LLC BelGlobalTon*
     > manager  
 
- ### Programming skills ###  
- ***Created a website using CMS WordPress***
+### Programming skills ###  
+***Created a website using CMS WordPress***
    1. [beauty saloon](https://salonmonro7.by/)  
    2. [air conditioners in Pinsk](https://reft.by/)  
 
@@ -32,12 +32,12 @@
 
         <! DOCTYPE html >
     < html  lang = " ru " >
-    < голова >
+    < head >
     < meta  charset = " UTF-8 " >
     < link  rel = " stylesheet " href = " style.css " >
     < title > Крутой пацан Илья </ title >
     < link  href = " https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic " rel = " stylesheet " >
-    </ голова >
+    </ head >
 
     < тело >
     < header  class = " page-header " >
