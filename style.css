@@ -1,10 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
+    font-family: Verdana, sans-serif;
+   
+}
+
+article {
     display: flex;
     flex-direction: column;
-    font-family: Verdana, sans-serif;
-    max-width: 1200px;
-    
+    margin: 0px;
+    text-align: center;
 }
 
 header {
@@ -14,6 +22,19 @@ header {
     justify-content: center;
     color: rgb(97, 10, 50);
 }
+
+ul {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+}
+
+ol {
+    display: grid;
+    justify-content: center;
+    justify-items: start; 
+}
+
 .name {
 margin: 10px;
 text-transform: uppercase;
