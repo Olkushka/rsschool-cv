@@ -1,23 +1,189 @@
-@media (max-width: 1200px;) {
-    div {
-        width: 960px;
-    }
+*,*:before,*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-@media (max-width: 480px;) {
-    div {
-        width: 320px;
-    }
-}
-
-html {
+html,body {
+    height: 100%;
+    font-family: Verdana, sans-serif;
     scroll-behavior: smooth;
 }
 
-body {
-    margin: auto;
-    font-family: Verdana, sans-serif;
-   
+.container {
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    
+    /*display: flex;
+    
+    color: rgb(97, 10, 50);*/
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 228, 233);
+    z-index: 2;
+}
+
+.header_body {
+    position: relative;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+
+.header_name {
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+} 
+
+.ava {
+    flex: 0 0 144px;
+    position: relative;
+    z-index: 3;
+}
+
+.ava img{
+    max-width: 100%;
+    display: block;
+}
+
+.sate-navigition {
+    display: flex;
+}
+
+.sate-navigition li {
+    margin: 0px 0px 0px 20px;
+    z-index: 2;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+ скрываем чекбокс 
+  #menu__toggle {
+    opacity: 0;
+  }
+  
+  
+/*@media (max-width: 1024px;) {
+    div {
+        width: 960px;
+    }
+}*/
+
+@media (max-width: 768px) {
+    /* стилизуем кнопку */
+.menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    /*left: 20px;*/
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+.sate-navigition {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: -100%;
+    left: 0;
+    width: 297px;
+    height: 585px;
+    margin: 0;
+    padding: 220px 0px 0px 0px;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .sate-navigition {
+    visibility: visible;
+    top: 0;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.sate-navigition {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+    
 }
 
 .cv {
@@ -25,27 +191,6 @@ body {
     flex-direction: column;
     margin: 0px;
     text-align: center;
-}
-
-header {
-    background-color: rgb(222, 228, 233);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgb(97, 10, 50);
-}
-
-.sate-navigition {
-    display: flex;
-    padding: 0px;
-    max-width: 1200px;
-}
-
-.header-name {
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
 }
 
 ul {
@@ -62,32 +207,16 @@ ol {
     justify-items: start; 
 }
 
-
-
-
 .name {
 margin: 10px;
 text-transform: uppercase;
 }
 
-h1{
-    font-size: 44px;
-}
-
-h4 {
-    font-size: 14px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 34px; 
-}
-
 main {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(236, 236, 238);
+    padding: 250px 0px 0px 0px;
 
 }
 
